@@ -1,0 +1,44 @@
+body{
+margin:0;
+background:#ffdde1;
+overflow:hidden;
+font-family:Arial;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.contenido{
+text-align:center;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 0 20px pink;
+z-index:2;
+}
+
+h1{
+color:#ff1493;
+}
+
+p{
+font-size:20px;
+color:#444;
+}
+
+.corazon{
+position:absolute;
+color:red;
+font-size:25px;
+animation:caer 8s linear infinite;
+}
+
+@keyframes caer{
+0%{
+transform:translateY(-100px);
+}
+100%{
+transform:translateY(110vh);
+}
+}
